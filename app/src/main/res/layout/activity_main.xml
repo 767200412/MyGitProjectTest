@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--水平方向的线性布局 显示“登录”“注册”叉号-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="64dp"
+            android:text="登录"
+            android:textColor="#ff232323"
+            android:textSize="32sp"
+            />
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="64dp"
+            android:text="注册"
+            android:textColor="#ff999999"
+            android:textSize="32sp"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="44dp"
+            android:src="@mipmap/nav_ic_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="49dp"
+            android:singleLine="true"
+            android:text="输入手机号码"
+            android:textColor="#ffcccccc"
+            android:textSize="20sp"
+            android:background="@null"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="55dp"
+
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="48dp"
+            android:text="中国(+86)"
+            android:textColor="#ff238efa"
+            android:textSize="14sp" />
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="53dp"
+            android:src="@mipmap/ic_arrow_down_bule"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="288dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF909090" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="27dp"
+        android:singleLine="true"
+        android:text="输入密码"
+        android:inputType="textVisiblePassword"
+        android:textColor="#ffcccccc"
+        android:textSize="20sp"
+        android:background="@null"/>
+
+    <View
+        android:layout_width="288dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF909090" />
+
+    <Button
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="48dp"
+        android:text="登录"
+        android:background="@drawable/bt_shape"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="16dp"
+            android:text="忘记密码"
+            android:textColor="#ff666666"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginTop="16dp"
+            android:text="验证码登录"
+            android:textColor="#ff666666"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="44dp"
+            android:src="@mipmap/ic_fccn_logo_ban"/>
+
+    </LinearLayout>
+
+</LinearLayout>
